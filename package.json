@@ -1,0 +1,41 @@
+{
+  "name": "mdstr",
+  "version": "0.1.0",
+  "description": "Convert markdown to a JSON-safe string",
+  "bin": {
+    "mdstr": "bin/mdstr.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test 'test/**/*.test.js'",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "markdown",
+    "json",
+    "escape",
+    "cli",
+    "llm"
+  ],
+  "author": "Waldek Mastykarz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldekmastykarz/mdstr.git"
+  },
+  "homepage": "https://github.com/waldekmastykarz/mdstr#readme",
+  "bugs": {
+    "url": "https://github.com/waldekmastykarz/mdstr/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}
