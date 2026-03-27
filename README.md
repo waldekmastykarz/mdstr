@@ -9,6 +9,16 @@ Said "goodbye" and left.' | mdstr
 # → "# Hello\n\nSaid \"goodbye\" and left."
 ```
 
+## Use with AI agents
+
+Give your AI coding agent the mdstr skill so it can convert markdown to JSON-safe strings on your behalf:
+
+```sh
+npx skills add waldekmastykarz/mdstr
+```
+
+Once installed, ask your agent to _"convert this markdown to a JSON string"_ or _"escape this markdown for JSON"_ and it will handle the rest.
+
 ## Why
 
 You have markdown. You need it inside JSON — for an API call, an LLM prompt, a config file. `JSON.stringify` handles the escaping, but getting there from a file or stdin is friction. `mdstr` removes it.
@@ -86,7 +96,7 @@ jq -n --argjson content "$(mdstr instructions.md)" '{prompt: $content}' > payloa
 | `1` | Read/conversion error |
 | `2` | Invalid usage (file not found, no input) |
 
-## Use with AI coding agents
+### Use with AI agents in automated pipelines
 
 `mdstr` is built to work in automated pipelines and agent tool calls. Predictable output, explicit exit codes, no interactive prompts.
 
