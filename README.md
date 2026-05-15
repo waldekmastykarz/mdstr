@@ -11,6 +11,8 @@ Said "goodbye" and left.' | mdstr
 # → "# Hello\n\nSaid \"goodbye\" and left."
 ```
 
+![Terminal window showing a string piped into mdstr and converted to a JSON-safe string](assets/screenshot.png)
+
 ## Use with AI agents
 
 Give your AI coding agent the mdstr skill so it can convert markdown to JSON-safe strings on your behalf:
