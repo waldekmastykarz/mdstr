@@ -32,7 +32,7 @@
     "url": "https://github.com/waldekmastykarz/mdstr/issues"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "type": "commonjs",
   "dependencies": {

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+
+- Minimum Node.js version is now 22 (Node.js 20 reached EOL on April 30, 2026)
+
 ## [0.1.0] - 2026-02-20
 
 ### Added
