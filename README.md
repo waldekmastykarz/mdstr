@@ -1,5 +1,7 @@
 # mdstr
 
+[![skills.sh](https://skills.sh/b/waldekmastykarz/mdstr)](https://skills.sh/waldekmastykarz/mdstr)
+
 Convert markdown to a JSON-safe string. One command. Zero config.
 
 ```sh
